@@ -2,7 +2,7 @@
 // CONFIGURACIÓN
 // ===============================
 const modoPrueba = false;
-const fechaReal = new Date("2025-11-22T05:13:00-20:00");
+const fechaReal = new Date("2025-11-11T05:45:00-02:00");
 const fechaPrueba = new Date(Date.now() + 1 * 60 * 1000);
 const fechaObjetivo = modoPrueba ? fechaPrueba : fechaReal;
 
@@ -138,6 +138,7 @@ actualizarConteo();
 const intervalo = setInterval(actualizarConteo, 1000);
 textBox.style.transition = "opacity 0.3s ease";
 videoEl.play().catch(() => console.log("Autoplay bloqueado"));
+
 
 
 
