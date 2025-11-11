@@ -108,8 +108,8 @@ function actualizarConteo() {
 
     countdownEl.textContent = "00:00:00";
     countdownMobileEl.textContent = "00:00:00";
-    document.querySelector(".title").textContent = "¡Ya disponible!";
-    document.querySelector(".subtitle").textContent = "¡Míralo ahora!";
+    document.querySelector(".title").textContent = "creppes & waffles centro";
+    document.querySelector(".subtitle").textContent = "3:00 pm/3er piso";
     if (ctaButtonDesktop) ctaButtonDesktop.textContent = "Ver ahora";
     if (ctaButtonMobile) ctaButtonMobile.textContent = "Ver ahora";
 
@@ -138,6 +138,7 @@ actualizarConteo();
 const intervalo = setInterval(actualizarConteo, 1000);
 textBox.style.transition = "opacity 0.3s ease";
 videoEl.play().catch(() => console.log("Autoplay bloqueado"));
+
 
 
 
