@@ -317,7 +317,7 @@ body {
 
 @media (max-width: 480px) {
   #video {
-    transform: translate(-50%, -50%) rotate(90deg)scale(1.5);
+    transform: translate(-50%, -50%) rotate(90deg)scale(1.2);
     width: 100vh;
     height: 100vw;
   }
@@ -402,4 +402,5 @@ body {
   display: none !important;
   opacity: 0;
 }
+
 
