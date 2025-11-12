@@ -222,7 +222,7 @@ body {
 
 @media (max-width: 768px) {
   #video {
-    transform: translate(-50%, -50%) rotate(90deg) scale(1.5) ;
+    transform: translate(-50%, -60%) rotate(90deg) scale(1.5) ;
     width: 100vh;
     height: 100vw;
     object-fit: contain;
@@ -402,5 +402,6 @@ body {
   display: none !important;
   opacity: 0;
 }
+
 
 
