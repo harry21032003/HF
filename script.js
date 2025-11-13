@@ -2,7 +2,7 @@
 // CONFIGURACIÓN
 // ===============================
 const modoPrueba = false;
-const fechaReal = new Date("2025-11-21T05:30:00-17:00");
+const fechaReal = new Date("2025-11-13T05:34:00-00:00");
 const fechaPrueba = new Date(Date.now() + 1 * 60 * 1000);
 const fechaObjetivo = modoPrueba ? fechaPrueba : fechaReal;
 
@@ -108,8 +108,8 @@ function actualizarConteo() {
 
     countdownEl.textContent = "00:00:00";
     countdownMobileEl.textContent = "00:00:00";
-    document.querySelector(".title").textContent = "creppes & waffles centro";
-    document.querySelector(".subtitle").textContent = "3:00 pm/3er piso";
+    document.querySelector(".title").textContent = "ño se q poner aqui xd";
+    document.querySelector(".subtitle").textContent = "quizas algo migajero";
     if (ctaButtonDesktop) ctaButtonDesktop.textContent = "Ver completo";
     if (ctaButtonMobile) ctaButtonMobile.textContent = "Ver completo";
 
@@ -138,6 +138,7 @@ actualizarConteo();
 const intervalo = setInterval(actualizarConteo, 1000);
 textBox.style.transition = "opacity 0.3s ease";
 videoEl.play().catch(() => console.log("Autoplay bloqueado"));
+
 
 
 
