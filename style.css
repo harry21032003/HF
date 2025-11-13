@@ -403,6 +403,25 @@ body {
   opacity: 0;
 }
 
+@media screen and (orientation: landscape) {
+  body {
+    transform: rotate(90deg);
+    transform-origin: center center;
+    width: 100vh;
+    height: 100vw;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .video-background {
+    width: 100vh;
+    height: 100vw;
+  }
+}
+
+
 
 
 
