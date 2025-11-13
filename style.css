@@ -405,6 +405,13 @@ body {
   opacity: 0;
 }
 
+@media (max-width: 480px) {
+  .play-button-large {
+    transform: translateY(-50px);
+  }
+}
+
+
 
 
 
