@@ -329,7 +329,7 @@ body {
   }
 
   .bottom-section-mobile .countdown {
-    font-size: clamp(40px, 8vw, 56px);   
+    font-size: clamp(48px, 10vw, 65px);   
     letter-spacing: 3px;                 
     padding: 12px 20px;                  
     margin-bottom: 12px;
@@ -410,6 +410,7 @@ body {
     transform: translateY(-50px);
   }
 }
+
 
 
 
