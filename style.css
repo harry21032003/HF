@@ -7,9 +7,11 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #000;
-  overflow: hidden;
   height: 100vh;
+  overflow-y: auto; /* permite desplazamiento vertical */
+  overscroll-behavior: auto; /* vuelve a activar el rebote del navegador */
 }
+
 
 .video-background {
   position: relative;
@@ -402,6 +404,7 @@ body {
   display: none !important;
   opacity: 0;
 }
+
 
 
 
